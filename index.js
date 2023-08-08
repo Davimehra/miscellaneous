@@ -11,7 +11,7 @@ app.get('/',(req,res,next)=>{
     res.status(200);
     res.json({message:"Get Request / response"})
 })
-app.get("/user/signin",(req,res,next)=>{
+app.post("/user/signin",(req,res,next)=>{
     res.status(200);
     res.json({userid:'122344',email:"davimehra1234@gmail.com"})
 })
